@@ -1,9 +1,10 @@
 ## Getting started
 
-You need git, Node and npm in order to run this server. Follow the instructions supplied on their links before you continue with *Installation*.
+You need git, Node and npm in order to run this server. You can also use Postman for testing your API calls. Follow the instructions supplied on their links before you continue with *Installation*.
 
 * [Node/npm](https://nodejs.org/en/download/)
 * [git](https://github.com/git-guides/install-git)
+* [Postman](https://www.postman.com/)(optional)
 
 ## Installation
 
