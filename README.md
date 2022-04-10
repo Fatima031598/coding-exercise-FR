@@ -26,8 +26,8 @@ npx nodemon
 ```
 
 4. Run tests
-   make sure server is running
-   open second terminal
+   * make sure server is running
+   * open second terminal
 ```
 cd server
 npx jest
