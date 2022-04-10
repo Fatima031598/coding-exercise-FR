@@ -25,6 +25,14 @@ npm install
 npx nodemon
 ```
 
+4. Run tests
+   make sure server is running
+   open second terminal
+```
+cd server
+npx jest
+```
+
 ## Author
 
 Fatima Tapiya - [Github](https://github.com/Fatima031598) - [LinkedIn](https://www.linkedin.com/in/fatima-tapiya/)

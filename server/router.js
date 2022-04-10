@@ -1,10 +1,18 @@
 "use strict";
 
+//importing the router from express (express comes with build-in router)
 const router = require("express").Router();
-const points = require("./controllers/index");
 
-router.post("/points", points.addPoint);
-router.put("/points", points.spendPoints);
-router.get("/points", points.getAllPoints);
+//importing the controllers (aka callbacks that handle the incoming HTTP requests)
+const pointsController = require("./controllers/index");
 
+//same endpoint but different types of requests
+router.post("/points", pointsController.addPoint);
+router.put("/points", pointsController.spendPoints);
+router.get("/points", pointsController.getAllPoints);
+router.get("*", (req, res) =>
+  res.send("These are not the routes you are looking for")
+);
+
+//exporting the router middleware
 module.exports = router;
